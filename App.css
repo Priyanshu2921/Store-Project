@@ -42,7 +42,7 @@ button {
 }
 
 .product h3 {
-  margin: 0; /* Remove default margin to avoid extra space */
+  margin: 0; 
   line-height: 1.2; /* Adjust line height as needed */
   max-height: 2.4em; /* (line-height * number of lines) to limit to two lines */
   text-overflow: ellipsis;
@@ -70,6 +70,8 @@ button {
 .cta-container {
   display: flex;
   gap: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
 .cta-container button {

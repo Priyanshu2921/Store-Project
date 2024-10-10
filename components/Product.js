@@ -25,7 +25,7 @@ export default function Product({ productId, title, rating, price, imageUrl }) {
         >
           Add to Cart
         </button>
-        <button>Add to Wishlist</button>
+       
       </div>
     </div>
   )

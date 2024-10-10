@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"6DoTH":[function(require,module,exports) {
+})({"3Hl15":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -39619,8 +39619,6 @@ var _productsSlice = require("./slices/productsSlice");
 var _productsSliceDefault = parcelHelpers.interopDefault(_productsSlice);
 var _cartSlice = require("./slices/cartSlice");
 var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
-var _wishListSlice = require("./slices/wishListSlice");
-var _wishListSliceDefault = parcelHelpers.interopDefault(_wishListSlice);
 var _toolkit = require("@reduxjs/toolkit");
 var _api = require("./middleware/api");
 var _func = require("./middleware/func");
@@ -39628,55 +39626,14 @@ var _logger = require("./middleware/logger");
 const store = (0, _toolkit.configureStore)({
     reducer: {
         products: (0, _productsSliceDefault.default),
-        cartItems: (0, _cartSliceDefault.default),
-        wishList: (0, _wishListSliceDefault.default)
+        cartItems: (0, _cartSliceDefault.default)
     },
     middleware: (getDefaultMiddleware)=>[
             ...getDefaultMiddleware()
         ]
 });
 
-},{"./slices/productsSlice":"fe9Su","./slices/cartSlice":"2H6Np","./slices/wishListSlice":"6lidi","@reduxjs/toolkit":"lL1Ef","./middleware/api":"gsRW1","./middleware/func":"5hs49","./middleware/logger":"A5RO2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6lidi":[function(require,module,exports) {
-// Action Types
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-// Action Creators
-parcelHelpers.export(exports, "addWishListItem", ()=>addWishListItem);
-parcelHelpers.export(exports, "removeWishListItem", ()=>removeWishListItem);
-parcelHelpers.export(exports, "default", ()=>wishListReducer);
-const WISHLIST_ADD_ITEM = "wishList/addItem";
-const WISHLIST_REMOVE_ITEM = "wishList/removeItem";
-function addWishListItem(productId) {
-    return {
-        type: WISHLIST_ADD_ITEM,
-        payload: {
-            productId
-        }
-    };
-}
-function removeWishListItem(productId) {
-    return {
-        type: WISHLIST_REMOVE_ITEM,
-        payload: {
-            productId
-        }
-    };
-}
-function wishListReducer(state = [], action) {
-    switch(action.type){
-        case WISHLIST_ADD_ITEM:
-            return [
-                ...state,
-                action.payload
-            ];
-        case WISHLIST_REMOVE_ITEM:
-            return state.filter((wishListItem)=>wishListItem.productId !== action.payload.productId);
-        default:
-            return state;
-    }
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gsRW1":[function(require,module,exports) {
+},{"./slices/productsSlice":"fe9Su","./slices/cartSlice":"2H6Np","@reduxjs/toolkit":"lL1Ef","./middleware/api":"gsRW1","./middleware/func":"5hs49","./middleware/logger":"A5RO2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gsRW1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "apiMiddleware", ()=>apiMiddleware);
@@ -39891,28 +39848,19 @@ function Product({ productId, title, rating, price, imageUrl }) {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "cta-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        onClick: ()=>{
-                            dispatch((0, _cartSlice.addCartItem)({
-                                productId
-                            }));
-                        },
-                        children: "Add to Cart"
-                    }, void 0, false, {
-                        fileName: "components/Product.js",
-                        lineNumber: 21,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        children: "Add to Wishlist"
-                    }, void 0, false, {
-                        fileName: "components/Product.js",
-                        lineNumber: 28,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: ()=>{
+                        dispatch((0, _cartSlice.addCartItem)({
+                            productId
+                        }));
+                    },
+                    children: "Add to Cart"
+                }, void 0, false, {
+                    fileName: "components/Product.js",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "components/Product.js",
                 lineNumber: 20,
                 columnNumber: 7
@@ -40264,6 +40212,6 @@ $RefreshReg$(_c, "CartItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../store/slices/cartSlice":"2H6Np","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["6DoTH","1xC6H","adjPd"], "adjPd", "parcelRequireb773")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../store/slices/cartSlice":"2H6Np","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["3Hl15","1xC6H","adjPd"], "adjPd", "parcelRequireb773")
 
 //# sourceMappingURL=index.63aff760.js.map

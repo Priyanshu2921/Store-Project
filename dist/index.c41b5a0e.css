@@ -68,6 +68,8 @@ button {
 }
 
 .cta-container {
+  justify-content: center;
+  align-items: center;
   gap: 8px;
   display: flex;
 }

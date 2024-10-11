@@ -2957,7 +2957,7 @@ var _client = require("react-dom/client");
 var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 var _reactRedux = require("react-redux");
-var _store = require("./store");
+var _store = require("./store/store");
 var _reactRouterDom = require("react-router-dom");
 var _home = require("./pages/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
@@ -3011,7 +3011,7 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"2Ew96","react-redux":"bdVon","./store":"71t6G","react-router-dom":"9xmpe","./pages/Home":"63CgF","./pages/Cart":"bg1io","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"ifStX","react-redux":"bdVon","react-router-dom":"9xmpe","./pages/Home":"63CgF","./pages/Cart":"bg1io","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./store/store":"6j9ly"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27198,11 +27198,11 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"2Ew96":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"ifStX":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$53a7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c1db.prelude(module);
+$parcel$ReactRefreshHelpers$53a7.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27219,12 +27219,12 @@ function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "App.js",
+                fileName: "App.jsx",
                 lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
-                fileName: "App.js",
+                fileName: "App.jsx",
                 lineNumber: 11,
                 columnNumber: 7
             }, this)
@@ -27235,7 +27235,7 @@ _c = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$c1db.postlude(module);
+  $parcel$ReactRefreshHelpers$53a7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -39611,79 +39611,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"7g3a6":[function() {},{}],"71t6G":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "store", ()=>store);
-var _productsSlice = require("./slices/productsSlice");
-var _productsSliceDefault = parcelHelpers.interopDefault(_productsSlice);
-var _cartSlice = require("./slices/cartSlice");
-var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
-var _toolkit = require("@reduxjs/toolkit");
-var _api = require("./middleware/api");
-var _func = require("./middleware/func");
-var _logger = require("./middleware/logger");
-const store = (0, _toolkit.configureStore)({
-    reducer: {
-        products: (0, _productsSliceDefault.default),
-        cartItems: (0, _cartSliceDefault.default)
-    },
-    middleware: (getDefaultMiddleware)=>[
-            ...getDefaultMiddleware()
-        ]
-});
-
-},{"./slices/productsSlice":"fe9Su","./slices/cartSlice":"2H6Np","@reduxjs/toolkit":"lL1Ef","./middleware/api":"gsRW1","./middleware/func":"5hs49","./middleware/logger":"A5RO2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gsRW1":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "apiMiddleware", ()=>apiMiddleware);
-parcelHelpers.export(exports, "fetchData", ()=>fetchData);
-const apiMiddleware = ({ dispatch })=>(next)=>(action)=>{
-            const BASE_URL = "https://fakestoreapi.com";
-            if (action.type === "api/makeCall") {
-                next(action);
-                const { url, onStart, onSuccess, onError } = action.payload;
-                dispatch({
-                    type: onStart
-                });
-                fetch(`${BASE_URL}/${url}`).then((res)=>res.json()).then((data)=>{
-                    dispatch({
-                        type: onSuccess,
-                        payload: data
-                    });
-                }).catch(()=>{
-                    dispatch({
-                        type: onError
-                    });
-                });
-            } else next(action);
-        };
-const fetchData = (payload)=>({
-        type: "api/makeCall",
-        payload
-    });
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5hs49":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "func", ()=>func);
-const func = ({ dispatch, getState })=>(next)=>(action)=>{
-            if (typeof action === "function") action(dispatch, getState);
-            else next(action);
-        };
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"A5RO2":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "logger", ()=>logger);
-const logger = (store)=>(next)=>(action)=>{
-            console.log("store: ", store);
-            console.log("next: ", next);
-            console.log("action: ", action);
-            next(action);
-        };
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"63CgF":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"7g3a6":[function() {},{}],"63CgF":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dee9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40212,6 +40140,25 @@ $RefreshReg$(_c, "CartItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../store/slices/cartSlice":"2H6Np","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["3Hl15","1xC6H","adjPd"], "adjPd", "parcelRequireb773")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","../store/slices/cartSlice":"2H6Np","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6j9ly":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "store", ()=>store);
+var _productsSlice = require("./slices/productsSlice");
+var _productsSliceDefault = parcelHelpers.interopDefault(_productsSlice);
+var _cartSlice = require("./slices/cartSlice");
+var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
+var _toolkit = require("@reduxjs/toolkit");
+const store = (0, _toolkit.configureStore)({
+    reducer: {
+        products: (0, _productsSliceDefault.default),
+        cartItems: (0, _cartSliceDefault.default)
+    },
+    middleware: (getDefaultMiddleware)=>[
+            ...getDefaultMiddleware()
+        ]
+});
+
+},{"./slices/productsSlice":"fe9Su","./slices/cartSlice":"2H6Np","@reduxjs/toolkit":"lL1Ef","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["3Hl15","1xC6H","adjPd"], "adjPd", "parcelRequireb773")
 
 //# sourceMappingURL=index.63aff760.js.map

@@ -40159,6 +40159,6 @@ const store = (0, _toolkit.configureStore)({
         ]
 });
 
-},{"./slices/productsSlice":"fe9Su","./slices/cartSlice":"2H6Np","@reduxjs/toolkit":"lL1Ef","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["3Hl15","1xC6H","adjPd"], "adjPd", "parcelRequireb773")
+},{"./slices/productsSlice":"fe9Su","./slices/cartSlice":"2H6Np","@reduxjs/toolkit":"lL1Ef","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["3Hl15","1xC6H","adjPd"], "adjPd", "parcelRequire868c")
 
 //# sourceMappingURL=index.63aff760.js.map

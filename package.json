@@ -1,5 +1,5 @@
 {
-  "name": "00_redux-intro-and-reducer-pattern",
+  "name": "00_store_project",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",

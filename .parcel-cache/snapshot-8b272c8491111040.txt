@@ -1,5 +1,4 @@
-7093
-68C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.html133730987617373453 0
+7091
 60C:\Users\priyanshu.yadav\Desktop\React\Store-Project\App.css133730980025921463 0
 103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\.bin\node-gyp-build-optional-packages133730980026797774 0
 100C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\core\test\fixtures\plugins133730980036881003 1
@@ -21,7 +20,7 @@
 125C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@reduxjs\toolkit\node_modules\immer\dist\utils\env.d.ts.map133730980078832447 0
 108C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\cjs\utils\create-custom-error.cjs133730980111137263 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\lmdb\dependencies\lz4\lib\lz4.c133730980127765979 0
-57C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist133730987617373453 1
+57C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist133731312885969905 1
 107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\packager-html\lib\HTMLPackager.js133730980050074016 0
 92C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\reusePaths.js133730980141527152 0
 142C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Selector.js133730980040852536 0
@@ -111,6 +110,8 @@
 102C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\lib\lexer133730980116637557 1
 135C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\utils.js133730980042276936 0
 73C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\process133730980133319765 1
+117C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_drop.1133730980127292988 0
+65C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules133730980399508738 1
 125C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_class_private_field_loose_base\package.json133730980086746121 0
 90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\is-arrayish\package.json133730980123691734 0
 123C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\runtime-js\src\helpers\browser\import-polyfill.js133730980052309518 0
@@ -127,8 +128,6 @@
 84C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csstype\index.d.ts133730980118203812 0
 60C:\Users\priyanshu.yadav\Desktop\React\Store-Project\main.js133730980026439704 0
 90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\syntax\node133730980112713864 1
-117C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_drop.1133730980127292988 0
-65C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules133730980399508738 1
 108C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\core\test\fixtures\invalid-targets133730980036568450 1
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\source-map-js\lib\quick-sort.js133730980139575689 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\regions\GF.js133730980101770839 0
@@ -177,20 +176,14 @@
 141C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEditorsNSData.js133730980043910167 0
 103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\removeEmptyContainers.js133730980141235681 0
 84C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\lib\syntax.js133730980114639620 0
-58C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store133730980143523762 1
+58C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store133730988883191216 1
 94C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react\react.shared-subset.js133730980137536207 0
 101C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_update\package.json133730980088070650 0
 135C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\procedure.d.ts.map133730980044611767 0
 101C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\lmdb\dependencies\lz4\lib\lz4file.h133730980127765979 0
 96C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\nth-check\lib\esm\parse.js.map133730980131738842 0
 142C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-musl.node133730980071321638 0
-69C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\middleware133730980143523762 1
-96C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\definition-syntax133730980111611816 1
-74C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\productsList.js133730980143523762 0
-104C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-dom\cjs\react-dom.development.js133730980133740401 0
-89C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\js-yaml\lib\type\seq.js133730980124478931 0
-109C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\cjs\definition-syntax\generate.cjs133730980109569124 0
-74C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-is133730980134568640 1
+69C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\middleware133730989493407119 1
 107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\reporter-dev-server\src\templates133730980051680592 1
 90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\timsort\build\timsort.js133730980141751463 0
 98C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\cjs\syntax\node\CDO.cjs133730980110385818 0
@@ -211,14 +204,12 @@
 94C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\msgpackr-extract\binding.gyp133730980129413571 0
 141C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\config\lexer.js133730980040083844 0
 120C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\README.md133730980041452731 0
-82C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\slices\productsSlice.js133730980143523762 0
+82C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\slices\productsSlice.js133731312878208146 0
 123C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_class_static_private_field_spec_get.cjs133730980088576679 0
 76C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\middleware\api.js133730980143438570 0
 121C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@reduxjs\toolkit\src\query\tests\errorHandling.test.tsx133730980080560268 0
 138C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\README.md133730980129650505 0
 87C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-addon-api\napi.h133730980131068115 0
-77C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\middleware\func.js133730980143523762 0
-114C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133730980106260544 0
 95C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-refresh\build-info.json133730980136258408 0
 79C:\Users\priyanshu.yadav\Desktop\React\Store-Project\store\middleware\logger.js133730980143523762 0
 134C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none\package.json133730980036881003 0
@@ -264,8 +255,8 @@
 78C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\posthtml\lib133730980133101428 1
 121C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\node_modules\domutils\lib\esm\traversal.d.ts133730980107523958 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\regions\SH.js133730980103075809 0
-122C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_is_native_reflect_construct\package.json133730980087417976 0
 108C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_apply_decorated_descriptor133730980086411198 1
+122C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_is_native_reflect_construct\package.json133730980087417976 0
 72C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@lezer133730980031278406 1
 112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-redux\es\utils\useSyncExternalStore.d.ts133730980135231502 0
 113C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@reduxjs\toolkit\src\createDraftSafeSelector.ts133730980079331429 0
@@ -302,11 +293,11 @@
 76C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@remix-run133730980081660642 1
 102C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\cleanupNumericValues.js133730980140884357 0
 113C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\wasm-relaxed-simd.js133730980100075161 0
-88C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\supports-color\license133730980140200852 0
-85C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\LICENSE133730980138477865 0
 92C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\cache\package.json133730980032462046 0
 82C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\lmdb\src\dbi.cpp133730980128552166 0
 74C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\boolbase133730980092906749 1
+85C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\LICENSE133730980138477865 0
+88C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\supports-color\license133730980140200852 0
 84C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\chrome-trace-event133730980104237084 1
 70C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc133730980399528759 1
 93C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_ts_decorate133730980087933004 1
@@ -376,13 +367,13 @@
 126C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\lib\syntax\scope\atrulePrelude.js133730980117578905 0
 77C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\cosmiconfig133730980105399536 1
 87C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-redux\lib\hooks133730980135539710 1
-116C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133730980122593172 0
-136C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\atrule\page.js133730980045836524 0
-87C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\README.md133730980138477865 0
 129C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules133730980036568450 1
 120C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\import.js133730980116793541 0
 100C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\cosmiconfig\dist\cacheWrapper.d.ts133730980104741706 0
 78C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite133730980103939169 1
+116C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133730980122593172 0
+136C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\atrule\page.js133730980045836524 0
+87C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\README.md133730980138477865 0
 111C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\form-validation.js133730980096871339 0
 138C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor\package.json133730980086746121 0
 71C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\chalk133730980104127290 1
@@ -653,6 +644,7 @@
 112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\transformer-postcss\src\loadPlugins.js133730980072559757 0
 92C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\ordered-binary\.nyc_output133730980132072735 1
 106C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_class_private_method_set133730980086913505 1
+103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\parser133730980115065056 1
 123C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\usage.js133730980042276936 0
 113C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\sharedarraybuffer.js133730980099240624 0
 98C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\removeDimensions.js133730980141196015 0
@@ -719,6 +711,10 @@
 128C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_class_static_private_field_update\package.json133730980087079304 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\regions\VE.js133730980103576185 0
 80C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\supports-color133730980140200852 1
+104C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-dom\cjs\react-dom.development.js133730980133740401 0
+89C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\js-yaml\lib\type\seq.js133730980124478931 0
+109C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\cjs\definition-syntax\generate.cjs133730980109569124 0
+74C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-is133730980134568640 1
 111C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_class_call_check\package.json133730980086740262 0
 94C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\htmlnano\lib\presets\max.mjs133730980122749220 0
 86C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\htmlnano\lib\presets133730980122749220 1
@@ -1304,6 +1300,9 @@
 102C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\removeOffCanvasPaths.js133730980141235681 0
 86C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\types\README.md133730980091709691 0
 88C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\term-size\vendor\macos133730980141669623 1
+85C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\is-arrayish\LICENSE133730980123691734 0
+95C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\esm\general.js133730980105556009 0
+105C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-gyp-build-optional-packages\bin.js133730980131223398 0
 90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\term-size\vendor\windows133730980141689719 1
 92C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\cjs\syntax\pseudo133730980110982281 1
 116C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\htmlnano\lib\modules\minifyConditionalComments.mjs133730980122406639 0
@@ -1402,6 +1401,7 @@
 112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\removeNonInheritableGroupAttrs.js133730980141235681 0
 103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\colr-v1.js133730980094051304 0
 92C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\domutils\lib\querying.d.ts133730980119975988 0
+104C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-releases\data\processed\envs.json133730980131566980 0
 100C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\plugins\removeRasterImages.js133730980141235681 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\esm\general.d.ts133730980105556009 0
 76C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\parcel\src133730980132241584 1
@@ -1467,6 +1467,7 @@
 90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\ordered-binary\README.md133730980132072735 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\regions\TM.js133730980103407889 0
 84C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\lib\svgo.d.ts133730980140517540 0
+90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\package.json133730980138634362 0
 140C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\SyntaxError.js133730980039421372 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\source-map\lib\binary-search.js133730980139888441 0
 85C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\svgo\lib\types.d.ts133730980140673882 0
@@ -1616,6 +1617,10 @@
 136C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-multiple133730980036167238 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\semver\ranges\to-comparators.js133730980139435633 0
 109C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\css-paint-api.js133730980095365543 0
+148C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133730980044801036 0
+111C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\src\_assert_this_initialized.mjs133730980090742109 0
+112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-gyp-build-optional-packages\build-test.js133730980131223398 0
+107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_to_primitive\package.json133730980087910749 0
 90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\semver\internal\debug.js133730980139259192 0
 109C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-redux\es\connect\mapStateToProps.d.ts133730980134762645 0
 127C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\syntax\function\expression.cjs133730980115221312 0
@@ -1700,7 +1705,6 @@
 107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\scheduler\cjs\scheduler.production.min.js133730980138634362 0
 88C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\index.d.ts133730980138634362 0
 112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\syntax\function133730980115221312 1
-90C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\safe-buffer\package.json133730980138634362 0
 119C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@reduxjs\toolkit\src\query\tests\apiProvider.test.tsx133730980080333688 0
 88C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\js-tokens\package.json133730980124004237 0
 116C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\react-dom\cjs\react-dom-server.node.development.js133730980133578730 0
@@ -2547,14 +2551,6 @@
 128C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\tokenizer133730980041274340 1
 105C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\indexeddb.js133730980097240397 0
 101C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-releases\data\release-schedule133730980131571275 1
-104C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-releases\data\processed\envs.json133730980131566980 0
-85C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\is-arrayish\LICENSE133730980123691734 0
-95C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\esm\general.js133730980105556009 0
-105C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-gyp-build-optional-packages\bin.js133730980131223398 0
-148C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133730980044801036 0
-111C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\src\_assert_this_initialized.mjs133730980090742109 0
-112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-gyp-build-optional-packages\build-test.js133730980131223398 0
-107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_to_primitive\package.json133730980087910749 0
 107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-gyp-build-optional-packages\index.js133730980131223398 0
 106C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\node-gyp-build-optional-packages\LICENSE133730980131223398 0
 94C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\entities\lib\encode.d.ts.map133730980120553385 0
@@ -3643,7 +3639,6 @@
 107C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@babel\highlight\node_modules\chalk\types133730980027426265 1
 126C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\_\_class_static_private_method_get\package.json133730980087079304 0
 102C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\lexer133730980115065056 1
-103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\parser133730980115065056 1
 116C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\lexer\structure.cjs133730980114908798 0
 103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\csso\node_modules\css-tree\cjs\syntax133730980115851052 1
 84C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\lexer133730980111925139 1
@@ -3937,6 +3932,7 @@
 105C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\graph\test\ContentGraph.test.js133730980037978699 0
 92C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\data-patch.js133730980111611816 0
 86C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\data.js133730980111611816 0
+96C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\definition-syntax133730980111611816 1
 88C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\generator133730980111768930 1
 89C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\version.js133730980113026108 0
 95C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-tree\lib\walker\create.js133730980113026108 0
@@ -4422,6 +4418,7 @@
 114C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts.map133730980106175725 0
 112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\aliases.js.map133730980106260544 0
 110C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\filters.d.ts133730980106260544 0
+114C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133730980106260544 0
 112C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\filters.js.map133730980106260544 0
 110C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133730980106260544 0
 114C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133730980106380629 0
@@ -4982,7 +4979,7 @@
 116C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\high-resolution-time.js133730980097027561 0
 114C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\html-media-capture.js133730980097027561 0
 109C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\html5semantic.js133730980097027561 0
-80C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\cart-icon.1f3296c5.svg133730986909051930 0
+80C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\cart-icon.1f3296c5.svg133731312732068557 0
 115C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\http-live-streaming.js133730980097133135 0
 111C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\caniuse-lite\data\features\media-fragments.js133730980098072978 0
 87C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\.bin\loose-envify.ps1133730980026787703 0
@@ -5575,14 +5572,14 @@
 103C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_to_property_key.cjs133730980089241370 0
 100C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_ts_generator.cjs133730980089241370 0
 99C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_ts_metadata.cjs133730980089241370 0
-75C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.63aff760.js133730986911542731 0
+75C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.63aff760.js133731312885562153 0
 96C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_ts_param.cjs133730980089241370 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_ts_values.cjs133730980089241370 0
 95C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_type_of.cjs133730980089241370 0
 117C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_unsupported_iterable_to_array.cjs133730980089346579 0
 110C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\transformer-html\src\dependencies.js133730980072086681 0
 94C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_update.cjs133730980089346579 0
-80C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.c41b5a0e.css.map133730986911773813 0
+80C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.c41b5a0e.css.map133731312733786850 0
 121C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\transformer-posthtml\lib\PostHTMLTransformer.js133730980072559757 0
 108C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@swc\helpers\cjs\_wrap_async_generator.cjs133730980089346579 0
 144C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133730980046279222 0
@@ -6406,7 +6403,7 @@
 139C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\1-mergeAtrule.js133730980047543548 0
 147C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133730980047553528 0
 142C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\3-disjoinRuleset.js133730980047573542 0
-76C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.c41b5a0e.css133730986911578414 0
+76C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.c41b5a0e.css133731312733722100 0
 144C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Identifier.js133730980040622983 0
 141C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\6-restructBlock.js133730980047603799 0
 143C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\8-restructRuleset.js133730980047603799 0
@@ -7090,5 +7087,6 @@
 79C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\.bin\svgo.ps1133730980026982979 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\.bin\update-browserslist-db.cmd133730980026982979 0
 97C:\Users\priyanshu.yadav\Desktop\React\Store-Project\node_modules\.bin\update-browserslist-db.ps1133730980026982979 0
-79C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.63aff760.js.map133730986911789793 0
 75C:\Users\priyanshu.yadav\Desktop\React\Store-Project\components\CartItem.js133730980025998603 0
+68C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.html133731312732068557 0
+79C:\Users\priyanshu.yadav\Desktop\React\Store-Project\dist\index.63aff760.js.map133731312885858813 0
